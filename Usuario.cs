@@ -11,6 +11,7 @@ internal class Usuario
     public Usuario(string nomeDoUsuario)
     {
         NomeDoUsuario = nomeDoUsuario;
+
     }
 
     public string NomeDoUsuario { get;  }

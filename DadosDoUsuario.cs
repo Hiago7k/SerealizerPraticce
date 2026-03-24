@@ -15,6 +15,7 @@ internal class DadosDoUsuario
         Nome = nome;
         Idade = idade;
         Email = email;
+        ListaDeUsuarios = new List<Usuario>();
     }
 
     public List<Usuario> ListaDeUsuarios { get; }

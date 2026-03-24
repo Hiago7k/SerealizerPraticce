@@ -12,3 +12,5 @@ string emailDoUsuario = Console.ReadLine()!;
 
 DadosDoUsuario dados = new DadosDoUsuario(nomeDoUsuario, idadeDoUsuario, emailDoUsuario);
 dados.AdicionarUsuarioNaLista(hiago);
+
+dados.GerarArquivoJson();

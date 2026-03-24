@@ -36,6 +36,8 @@ internal class DadosDoUsuario
         string json = JsonSerializer.Serialize(new
         {
             nome = Nome,
+            email = Email,
+            idade = Idade,
             usuario = ListaDeUsuarios
         });
         string nomeDoArquivo = $"gerando arquivo {Nome}";

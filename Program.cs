@@ -10,7 +10,5 @@ int idadeDoUsuario = Convert.ToInt32(Console.ReadLine())!;
 Console.WriteLine($"Digite o Email: :");
 string emailDoUsuario = Console.ReadLine()!;
 
-
-
-DadosDoUsuario dados = new DadosDoUsuario();
-
+DadosDoUsuario dados = new DadosDoUsuario(nomeDoUsuario, idadeDoUsuario, emailDoUsuario);
+dados.AdicionarUsuarioNaLista(hiago);

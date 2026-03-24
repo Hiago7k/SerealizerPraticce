@@ -37,6 +37,9 @@ internal class DadosDoUsuario
             nome = Nome,
             usuario = ListaDeUsuarios
         });
+        string nomeDoArquivo = $"gerando arquivo {Nome}";
+        File.WriteAllText(nomeDoArquivo, json);
+        Console.WriteLine($"Arquivo Json criando com sucesso {Path.GetFullPath(nomeDoArquivo)}");
     }
 }
 
